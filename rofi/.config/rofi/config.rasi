@@ -1,0 +1,66 @@
+configuration {
+	modi: "drun,run";
+	lines: 9;
+	show-icons: true;
+	drun-icon-theme: "Mato";
+}
+
+* {
+	base00: #2f3636;
+	base01: #3a3a3b;
+	base02: #4a4a4a;
+	base03: #5d616a;
+	base04: #61666f;
+	base05: #99999d;
+	base06: #eceff4;
+	base07: #f6f6f5;
+	base08: #dc5050;
+	base09: #de935f;
+	base0A: #f0c674;
+	base0B: #86b361;
+	base0C: #58ba83;
+	base0D: #6ea2ce;
+	base0E: #b98bd6;
+	base0F: #aa7f65;
+
+	background-color: @base00;
+	color: @base05;
+	font: "Ubuntu Regular 14";
+}
+
+#window {
+	padding: 20;
+	width: 600;
+	border-radius: 8px;
+}
+
+#entry {
+	padding: 20px;
+	font: "Ubuntu Regular 16";
+	background-color: @base02;
+	border-radius: 4px 4px 0 0;
+}
+
+#prompt {
+	enabled: false;
+}
+
+#element {
+	padding: 10px 20px;
+}
+
+#element selected {
+	color: @base07;
+	background-color: @base01;
+}
+
+#listview {
+	scrollbar: true;
+}
+
+#scrollbar {
+	handle-width: 2px;
+	border-radius: 2px;
+	background-color: @base02;
+	handle-color: @base04;
+}

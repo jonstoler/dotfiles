@@ -1,0 +1,6 @@
+[submodule "zsh/.zsh/prompt-purer"]
+	path = zsh/.zsh/plug/prompt-purer
+	url = https://github.com/DFurnes/purer
+[submodule "zsh/.zsh/plug/zsh-syntax-highlighting"]
+	path = zsh/.zsh/plug/zsh-syntax-highlighting
+	url = gh:zsh-users/zsh-syntax-highlighting

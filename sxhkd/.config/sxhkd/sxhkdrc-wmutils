@@ -1,0 +1,35 @@
+super + w:
+	~/bin/share/killwa $(pfw)
+
+super + p:
+	~/bin/share/killwa $(pfw)
+
+super + f:
+	~/bin/wm/full $(pfw)
+
+super + {h,j,k,l}
+	wmv {-10 0,0 10,0 -10,10 0} $(pfw)
+
+super + shift + {h,j,k,l}
+	wmv {-20 0,0 20,0 -20,20 0} $(pfw)
+
+super + alt + {h,j,k,l}
+	wrs {-10 0,0 10,0 -10,10 0} $(pfw)
+
+super + shift + alt + {h,j,k,l}
+	wrs {-20 0,0 20,0 -20,20 0} $(pfw)
+
+super + {_,shift} + g
+	~/bin/wm/corner {md,mdy} $(pfw)
+
+super + {_,shift} + Tab:
+	~/bin/wm/focus {next,prev}
+
+super + {1,2,3,4}:
+	~/bin/wm/groups add {inky,blinky,pinky,clyde} $(pfw)
+
+super + shift + {1,2,3,4}:
+	~/bin/wm/groups toggle {inky,blinky,pinky,clyde}
+
+super + 0:
+	~/bin/wm/groups remove $(pfw)

@@ -1,0 +1,18 @@
+[core]
+	editor = nvim
+	quotepath = false
+
+[user]
+	signingkey = D642C2A2E736A0C3
+	name = Jonathan Stoler
+	email = git@jonstoler.me
+
+[url "https://github.com/"]
+	insteadOf = "gh:"
+[url "git@github.com"]
+	pushInsteadOf = "gh:"
+
+[url "https://gitlab.com/"]
+	insteadOf = "gl:"
+[url "git@gitlab.com"]
+	pushInsteadOf = "gl:"

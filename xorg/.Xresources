@@ -1,0 +1,50 @@
+#define base00 #2f3636
+#define base01 #3a3a3b
+#define base02 #4a4a4a
+#define base03 #5d616a
+#define base04 #61666f
+#define base05 #99999d
+#define base06 #eceff4
+#define base07 #f6f6f5
+
+#define base08 #dc5050
+#define base09 #de935f
+#define base0A #f0c674
+#define base0B #86b361
+#define base0C #58ba83
+#define base0D #6ea2ce
+#define base0E #b98bd6
+#define base0F #aa7f65
+
+*foreground:  base05
+*background:  base00
+*cursorColor: base05
+
+*color0:  base00
+*color1:  base08
+*color2:  base0B
+*color3:  base0A
+*color4:  base0D
+*color5:  base0E
+*color6:  base0C
+*color7:  base05
+
+*color8:  base03
+*color9:  base09
+*color10: base01
+*color11: base02
+*color12: base04
+*color13: base06
+*color15: base07
+
+URxvt.internalBorder: 16
+
+URxvt.font: xft:Hurmit Nerd Font Mono:size=10
+URxvt.boldFont:
+URxvt.italicFont:
+URxvt.boldItalicFont:
+
+URxvt.scrollBar_right: true
+URxvt.scrollstyle: plain
+URxvt.thickness: 6
+URxvt.scrollColor: base04

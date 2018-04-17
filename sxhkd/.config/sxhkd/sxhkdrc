@@ -1,0 +1,33 @@
+super + Return:
+	urxvt
+
+super + space:
+	rofi -show drun
+
+super + y:
+	firefox
+
+super + t:
+	pcmanfm
+
+super + shift + t:
+	fman
+
+super + ctrl + {space,Right,Left}:
+	mpc {toggle,next,cdprev}
+
+ctrl + space:
+	~/bin/tiktok
+
+# SPECIAL KEYS
+XF86MonBrightnessUp:
+	~/bin/bright +
+
+XF86MonBrightnessDown:
+	~/bin/bright -
+
+XF86AudioRaiseVolume:
+	~/bin/volume +
+
+XF86AudioLowerVolume:
+	~/bin/volume -
